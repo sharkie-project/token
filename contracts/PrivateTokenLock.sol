@@ -1,5 +1,5 @@
 // SPDX-License-Identifier: MIT
-pragma solidity ^0.8.9;
+pragma solidity ^0.8.19;
 
 import "@openzeppelin/contracts/token/ERC20/utils/SafeERC20.sol";
 
@@ -13,7 +13,7 @@ contract PrivateTokenLock {
     string public name = "Private Round Token Lock";
 
     uint256 public constant totalSupply = 1_000_000_000;
-    uint256 percentShare = 533;
+    uint256 percentShare = 530;
 
     uint256 public percentTge = 20;
     uint256 public monthsCliff = 3;
